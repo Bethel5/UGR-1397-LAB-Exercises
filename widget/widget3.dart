@@ -141,6 +141,18 @@ class Widget3 extends StatelessWidget {
 
                           ],
                         ),
+                        Column(
+                          children: [
+                            Text('Payment info'),
+                            Row(
+                              children: [
+                                Text('Payment method'),
+
+                                Text('Cash on delevery')
+                              ],
+                            )
+                          ],
+                        )
                       ],
                     )  
                   ],
